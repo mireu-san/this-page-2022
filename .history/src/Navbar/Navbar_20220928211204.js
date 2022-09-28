@@ -14,7 +14,7 @@ function Navbar() {
             <a href="#">Experience</a>
           </li>
           <li>
-            <a href="#">History</a>
+            <a href="#">Learning History</a>
           </li>
           <li>
             <a href="#">Side Projects</a>

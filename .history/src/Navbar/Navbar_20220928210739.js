@@ -1,26 +1,26 @@
 import React from "react";
-import "./Navbar.css";
+import "Navbar.css";
 
 function Navbar() {
   return (
     <div className="wrapper">
       <div className="sidebar_left">
-        <h2>Jongwan Kim</h2>
+        <h2>Sidebar</h2>
         <ul>
           <li>
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <a href="#">Profile</a>
           </li>
           <li>
-            <a href="#">History</a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Side Projects</a>
+            <a href="#">portfolio</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#">Blogs</a>
           </li>
         </ul>
       </div>

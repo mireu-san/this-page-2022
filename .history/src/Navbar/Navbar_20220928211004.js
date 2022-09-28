@@ -14,13 +14,13 @@ function Navbar() {
             <a href="#">Experience</a>
           </li>
           <li>
-            <a href="#">History</a>
+            <a href="#">Education</a>
           </li>
           <li>
             <a href="#">Side Projects</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#">Linkedin</a>
           </li>
         </ul>
       </div>
