@@ -3,13 +3,13 @@ import "./NightMode.css";
 
 function NightMode() {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") || "lighting"
+    localStorage.getItem("thee") || "lighting"
   );
   const toggleTheme = () => {
     if (theme === "lighting") {
       setTheme("night");
     } else {
-      setTheme("lighting");
+      setTheme("morning");
     }
   };
 

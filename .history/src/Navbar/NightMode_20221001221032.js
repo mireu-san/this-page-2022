@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./NightMode.css";
 
-function NightMode() {
+function App() {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") || "lighting"
+    localStorage.getItem("thee") || "lighting"
   );
   const toggleTheme = () => {
     if (theme === "lighting") {
       setTheme("night");
     } else {
-      setTheme("lighting");
+      setTheme("morning");
     }
   };
 
@@ -24,4 +24,4 @@ function NightMode() {
     </div>
   );
 }
-export default NightMode;
+export default App;

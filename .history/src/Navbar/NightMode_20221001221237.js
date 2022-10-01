@@ -9,7 +9,7 @@ function NightMode() {
     if (theme === "lighting") {
       setTheme("night");
     } else {
-      setTheme("lighting");
+      setTheme("morning");
     }
   };
 

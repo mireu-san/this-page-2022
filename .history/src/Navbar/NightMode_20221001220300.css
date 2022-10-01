@@ -1,0 +1,19 @@
+/* .night {
+    background-color: #333;
+    color: #fff;
+}
+
+.morning {
+    background-color: #fff;
+    color: #333
+} */
+
+:root {
+    --primary-color: #f05014;
+    --background-color: #000;
+}
+
+.ui-dark {
+    --primary-color: blue;
+    --background-color: white;
+}
