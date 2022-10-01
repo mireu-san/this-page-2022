@@ -26,9 +26,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="main_content_right">
-        <div className="header">
-          <NightMode />
-        </div>
+        <div className="header">Welcome!! Have a nice day.</div>
         <div className="info">
           <div>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed

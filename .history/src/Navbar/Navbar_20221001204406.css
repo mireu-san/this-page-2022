@@ -41,7 +41,7 @@ body{
 }    
 
 .wrapper .sidebar_left ul li a{
-  color: #000000;
+  color: #bdb8d7;
   display: block;
 }
 
@@ -50,7 +50,7 @@ body{
 }
 
 .wrapper .sidebar_left ul li:hover{
-  background-color: #000000;
+  background-color: #594f8d;
 }
     
 .wrapper .sidebar_left ul li:hover a{
