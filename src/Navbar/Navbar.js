@@ -2,7 +2,7 @@ import React from "react";
 import NightMode from "./NightMode";
 import "./Navbar.css";
 
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home";
 
 function Navbar() {
   return (
