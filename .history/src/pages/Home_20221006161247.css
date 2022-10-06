@@ -1,0 +1,25 @@
+.home-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.home-content {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 20%;
+    width: auto;
+    height: auto;
+}
+
+/* .home-text {
+    
+} */

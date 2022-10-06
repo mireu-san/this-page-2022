@@ -1,0 +1,14 @@
+.night {
+    background-color: #333;
+    color: #fff;
+}
+
+.lighting {
+    background-color: #fff;
+    color: #333
+}
+
+button {
+    margin-top: 2%;
+    margin-left: 85%;
+}

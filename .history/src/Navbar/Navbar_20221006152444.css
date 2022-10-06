@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+  margin-left: 92%;
+  margin-top: 2%;
+}
+
+body {
+   background-color: #f3f5f9;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+/* sidebar - left (skeleton) */
+.wrapper .sidebar_left {
+  width: 200px;
+  height: 100%;
+  background: #ffffff;
+  padding: 30px 0px;
+  /* left skeleton position is fixed! */
+  position: fixed;
+}
+
+/* sidebar - left (logo) */
+.wrapper .sidebar_left h2 {
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* sidebar - Left (button) */
+.wrapper .sidebar_left ul li {
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+/* navbar menu */
+.wrapper .sidebar_left ul li a {
+  color: #000000;
+  display: block;
+}
+
+/* navbar menu */
+/* .wrapper .sidebar_left ul li a .fas {
+  width: 25px;
+} */
+
+/* navbar menu */
+.wrapper .sidebar_left ul li:hover {
+  background-color: #000000;
+}
+
+/* navbar menu */
+.wrapper .sidebar_left ul li:hover a {
+  color: #fff;
+}
+/*  
+
+/* define navbar position - right */
+.wrapper .main_content_right {
+  width: 100%;
+  margin-left: 200px;
+}
+
+/* define header position, - as a right */
+/* lighting colour is here */
+/* .wrapper .main_content_right .header {
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+} */
+
+/* define right, main content(body), text/central area */
+.wrapper .main_content_right .info {
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+/* set marginal space as a paragraph */
+/* may consider adding <hr> tag if needed */
+.wrapper .main_content_right .info div {
+  margin-bottom: 20px;
+}
