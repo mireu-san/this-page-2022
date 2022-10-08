@@ -12,16 +12,16 @@ function Navbar() {
           <h2>Logo</h2>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a to="/">Home</a>
             </li>
             <li>
-              <a href="/experience">Experience</a>
+              <a to="/experience">Experience</a>
             </li>
             <li>
-              <a href="/history">History</a>
+              <a to="/history">History</a>
             </li>
             <li>
-              <a href="/projects">Side Projects</a>
+              <a to="/projects">Side Projects</a>
             </li>
             <li>
               <a href="https://silverlibrary.tistory.com/">Blog</a>

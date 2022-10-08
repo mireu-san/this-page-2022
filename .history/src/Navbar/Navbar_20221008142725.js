@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../pages/Home/Home";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import NightMode from "./NightMode";
 import "./Navbar.css";
 

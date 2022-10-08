@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../pages/Home/Home";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import NightMode from "./NightMode";
 import "./Navbar.css";
 
@@ -12,19 +12,19 @@ function Navbar() {
           <h2>Logo</h2>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Route href="/">Home</Route>
             </li>
             <li>
-              <a href="/experience">Experience</a>
+              <Route to="/experience">Experience</Route>
             </li>
             <li>
-              <a href="/history">History</a>
+              <Route href="/history">History</Route>
             </li>
             <li>
-              <a href="/projects">Side Projects</a>
+              <Route href="/projects">Side Projects</Route>
             </li>
             <li>
-              <a href="https://silverlibrary.tistory.com/">Blog</a>
+              <Route href="https://silverlibrary.tistory.com/">Blog</Route>
             </li>
           </ul>
         </div>

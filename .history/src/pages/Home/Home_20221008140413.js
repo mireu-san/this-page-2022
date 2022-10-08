@@ -17,7 +17,7 @@ function Home() {
           <hr />
           {/* {insert pdf here to let it display 여기에 PDF resume 파일 넣기!} */}
           == test only == do not use bottom pdf unless this message is removed
-          <Document file={samplePDF}>
+          <Document file={samplePDF} className="pdf-wrapper">
             <Page pageNumber={1} />
           </Document>
         </div>

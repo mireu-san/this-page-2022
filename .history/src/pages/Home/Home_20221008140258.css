@@ -18,17 +18,8 @@
     border-radius: 20%;
     height: auto;
     width: 280px;
-    /* insurance */
-    margin-right:auto;
-    margin-left: auto;
 }
 
 .home-text {
-    width: auto;
-    height: auto;
-}
 
-.react-pdf__Page__canvas {
-    margin-right: auto;
-    margin-left: auto;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../pages/Home/Home";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import NightMode from "./NightMode";
 import "./Navbar.css";
 
@@ -15,7 +15,9 @@ function Navbar() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/experience">Experience</a>
+              <Link to="">
+                <a href="/experience">Experience</a>
+              </Link>
             </li>
             <li>
               <a href="/history">History</a>
