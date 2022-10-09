@@ -16,12 +16,11 @@ function Home() {
           <hr />
           {/* {insert pdf here to let it display} */}
           == test only == <strong>Do Not USE bottom pdf</strong> unless this
-          message is removed!
+          message is removed
           <Document file={samplePDF}>
             <Page pageNumber={1} />
           </Document>
         </div>
-        <hr />
       </div>
     </div>
   );

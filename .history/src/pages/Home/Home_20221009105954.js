@@ -20,8 +20,8 @@ function Home() {
           <Document file={samplePDF}>
             <Page pageNumber={1} />
           </Document>
+          <hr />
         </div>
-        <hr />
       </div>
     </div>
   );

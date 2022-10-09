@@ -1,12 +1,11 @@
 import React from "react";
-import "./History.css";
 
 function History() {
   return (
-    <div className="history-wrapper">
+    <div className="his-wrapper">
       {/* layer very back */}
-      <div className="history-content">
-        <div className="history-text">
+      <div className="his-content">
+        <div className="his-text">
           text
           <footer>test</footer>
           <hr />

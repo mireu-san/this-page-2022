@@ -1,14 +1,11 @@
 import React from "react";
-import "./Experience.css";
 
 function Experience() {
   return (
-    <div className="exp-wrapper">
+    <div className="home-wrapper">
       {/* layer very back */}
-      <div className="exp-content">
-        <div className="exp-text">
-          text
-          <footer>test</footer>
+      <div className="home-content">
+        <div className="home-text">
           <hr />
         </div>
       </div>

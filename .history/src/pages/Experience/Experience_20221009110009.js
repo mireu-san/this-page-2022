@@ -1,12 +1,11 @@
 import React from "react";
-import "./Education.css";
 
-function Education() {
+function Experience() {
   return (
-    <div className="edu-wrapper">
+    <div className="home-wrapper">
       {/* layer very back */}
-      <div className="edu-content">
-        <div className="edu-text">
+      <div className="home-content">
+        <div className="home-text">
           text
           <footer>test</footer>
           <hr />
@@ -16,4 +15,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Experience;

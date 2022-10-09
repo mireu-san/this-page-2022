@@ -1,4 +1,4 @@
-.edu-wrapper {
+.his-wrapper {
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.edu-content {
+.his-content {
     margin: 0 auto;
     width: 80%;
     height: 100%;
@@ -15,7 +15,7 @@
 }
 
 
-.edu-text {
+.his-text {
     width: auto;
     height: auto;
 }

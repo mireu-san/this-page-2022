@@ -1,12 +1,11 @@
 import React from "react";
-import "./Projects.css";
 
 function Projects() {
   return (
-    <div className="project-wrapper">
+    <div className="home-wrapper">
       {/* layer very back */}
-      <div className="project-content">
-        <div className="project-text">
+      <div className="home-content">
+        <div className="home-text">
           text!!
           <footer>test</footer>
           <hr />

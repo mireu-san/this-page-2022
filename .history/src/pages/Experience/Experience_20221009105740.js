@@ -1,5 +1,4 @@
 import React from "react";
-import "./Experience.css";
 
 function Experience() {
   return (
@@ -7,9 +6,10 @@ function Experience() {
       {/* layer very back */}
       <div className="exp-content">
         <div className="exp-text">
-          text
-          <footer>test</footer>
+          texttest
           <hr />
+          texttest
+          {/* <footer>test</footer> */}
         </div>
       </div>
     </div>

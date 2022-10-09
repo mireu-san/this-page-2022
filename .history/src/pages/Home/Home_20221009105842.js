@@ -21,7 +21,6 @@ function Home() {
             <Page pageNumber={1} />
           </Document>
         </div>
-        <hr />
       </div>
     </div>
   );

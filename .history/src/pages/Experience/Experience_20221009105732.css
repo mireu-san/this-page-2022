@@ -1,4 +1,4 @@
-.edu-wrapper {
+.exp-wrapper {
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.edu-content {
+.exp-content {
     margin: 0 auto;
     width: 80%;
     height: 100%;
@@ -14,8 +14,7 @@
     text-align: center;
 }
 
-
-.edu-text {
+.exp-text {
     width: auto;
     height: auto;
 }
