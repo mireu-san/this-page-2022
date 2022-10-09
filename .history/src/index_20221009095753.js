@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import Navbar from "./Navbar/Navbar";
+import Navbar from "./Navbar/Navbar";
 import Main from "./App";
 import { BrowserRouter } from "react-router-dom";
 
@@ -10,7 +10,7 @@ root.render(
   // <React.StrictMode>
   <BrowserRouter>
     <Main />
-    {/* <Navbar /> */}
+    <Navbar />
   </BrowserRouter>
   // </React.StrictMode>
 );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import Home from "../pages/Home/Home";
 
 import NightMode from "./NightMode";
@@ -10,21 +10,21 @@ function Navbar() {
     <>
       <div className="wrapper">
         <div className="sidebar_left">
-          <Link to="/">
+          <NavLink to="/">
             <h2>Logo</h2>
-          </Link>
+          </NavLink>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/home">Home</NavLink>
             </li>
             <li>
-              <Link to="/experience">Experience</Link>
+              <NavLink to="/experience">Experience</NavLink>
             </li>
             <li>
-              <Link to="/history">History</Link>
+              <NavLink to="/history">History</NavLink>
             </li>
             <li>
-              <Link to="/projects">Side Projects</Link>
+              <NavLink to="/projects">Side Projects</NavLink>
             </li>
             <li>
               <a href="https://silverlibrary.tistory.com/">Blog</a>

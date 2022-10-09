@@ -14,7 +14,7 @@ function Home() {
           {/* profile picture, box */}
           <img className="profile" src={require("../../images/me-photo.jpg")} />
           <hr />
-          {/* {insert pdf here to let it display} */}
+          {/* {insert pdf here to let it display 여기에 PDF resume 파일 넣기!} */}
           == test only == do not use bottom pdf unless this message is removed
           <Document file={samplePDF}>
             <Page pageNumber={1} />

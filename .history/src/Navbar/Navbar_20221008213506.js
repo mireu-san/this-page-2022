@@ -1,18 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import Home from "../pages/Home/Home";
+import Home from "../pages/Home/Home";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 import NightMode from "./NightMode";
 import "./Navbar.css";
 
 function Navbar() {
   return (
-    <>
+    <Router>
       <div className="wrapper">
         <div className="sidebar_left">
-          <Link to="/">
-            <h2>Logo</h2>
-          </Link>
+          <h2>Logo</h2>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -27,7 +25,7 @@ function Navbar() {
               <Link to="/projects">Side Projects</Link>
             </li>
             <li>
-              <a href="https://silverlibrary.tistory.com/">Blog</a>
+              <Link to="https://silverlibrary.tistory.com/">Blog</Link>
             </li>
           </ul>
         </div>
@@ -36,12 +34,13 @@ function Navbar() {
             <NightMode />
           </div>
           <hr></hr>
-          {/* <div className="info">
+
+          <div className="info">
             <Home />
-          </div> */}
+          </div>
         </div>
       </div>
-    </>
+    </Router>
   );
 }
 

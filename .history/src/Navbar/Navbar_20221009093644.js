@@ -37,8 +37,8 @@ function Navbar() {
           </div>
           <hr></hr>
           {/* <div className="info">
-            <Home />
-          </div> */}
+          <Home />
+        </div> */}
         </div>
       </div>
     </>

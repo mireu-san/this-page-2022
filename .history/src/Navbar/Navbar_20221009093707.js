@@ -13,23 +13,23 @@ function Navbar() {
           <Link to="/">
             <h2>Logo</h2>
           </Link>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/experience">Experience</Link>
-            </li>
-            <li>
-              <Link to="/history">History</Link>
-            </li>
-            <li>
-              <Link to="/projects">Side Projects</Link>
-            </li>
-            <li>
-              <a href="https://silverlibrary.tistory.com/">Blog</a>
-            </li>
-          </ul>
+          {/* <ul> */}
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/experience">Experience</Link>
+          </li>
+          <li>
+            <Link to="/history">History</Link>
+          </li>
+          <li>
+            <Link to="/projects">Side Projects</Link>
+          </li>
+          <li>
+            <a href="https://silverlibrary.tistory.com/">Blog</a>
+          </li>
+          {/* </ul> */}
         </div>
         <div className="main_content_right">
           <div className="header">
@@ -37,8 +37,8 @@ function Navbar() {
           </div>
           <hr></hr>
           {/* <div className="info">
-            <Home />
-          </div> */}
+          <Home />
+        </div> */}
         </div>
       </div>
     </>

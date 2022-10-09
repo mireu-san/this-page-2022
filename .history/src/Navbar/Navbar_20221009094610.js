@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Home from "../pages/Home/Home";
+import Home from "../pages/Home/Home";
 
 import NightMode from "./NightMode";
 import "./Navbar.css";
@@ -15,7 +15,7 @@ function Navbar() {
           </Link>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
               <Link to="/experience">Experience</Link>
@@ -36,9 +36,9 @@ function Navbar() {
             <NightMode />
           </div>
           <hr></hr>
-          {/* <div className="info">
+          <div className="info">
             <Home />
-          </div> */}
+          </div>
         </div>
       </div>
     </>
