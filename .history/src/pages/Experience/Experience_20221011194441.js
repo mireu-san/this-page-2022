@@ -8,6 +8,7 @@ function Experience() {
       {/* layer very back */}
       <div className="exp-content">
         <div className="exp-text">
+          test
           <CardExperience />
           {/* <hr /> */}
         </div>

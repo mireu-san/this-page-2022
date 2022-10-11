@@ -1,4 +1,4 @@
-.exp-wrapper {
+.history-wrapper {
     margin: 0 auto;
     /* 이거다! leftbar 침범 안하게 설정하는 법 */
     margin-left: 200px;
@@ -6,18 +6,17 @@
     height: 100%;
     display: block;
     text-align: center;
-}
 
-.exp-content {
+.history-content {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: block;
     text-align: center;
 }
 
 
-.exp-text {
+.history-text {
     width: auto;
     height: auto;
 }

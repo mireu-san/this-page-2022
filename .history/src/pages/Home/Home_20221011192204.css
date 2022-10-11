@@ -1,7 +1,5 @@
 .home-wrapper {
     margin: 0 auto;
-    /* 이거다! leftbar 침범 안하게 설정하는 법 */
-    margin-left: 200px;
     width: 100%;
     height: 100%;
     display: block;
@@ -10,7 +8,7 @@
 
 .home-content {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: block;
     text-align: center;

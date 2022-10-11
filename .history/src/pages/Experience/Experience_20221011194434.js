@@ -9,6 +9,7 @@ function Experience() {
       <div className="exp-content">
         <div className="exp-text">
           <CardExperience />
+          test
           {/* <hr /> */}
         </div>
       </div>
