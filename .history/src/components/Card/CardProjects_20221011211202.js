@@ -1,15 +1,8 @@
 import React from "react";
 
 // 특징:
-// 1시간 넘기지 말기. 수요일 중으로 끝내기.
 // 일단 30분만 잡고 해보기 - 3-4개 정도로 슬라이드 형식으로 보게끔.
 // google - > how to let card to slide horizontally css javascript
-
-// 후보:
-// https://stackoverflow.com/questions/47505426/html-horizontal-scrollbar-for-card-divs
-// 또는 https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6
-// 최후: https://www.youtube.com/watch?v=BKKcGb80MOs
-
 function CardProjects() {
   return (
     <>
