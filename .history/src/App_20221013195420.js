@@ -11,7 +11,7 @@ import { AnimatePresence } from "framer-motion";
 function App() {
   return (
     <div>
-      <AnimatePresence>
+      <AnimatePresence exitBeforeEnter>
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />

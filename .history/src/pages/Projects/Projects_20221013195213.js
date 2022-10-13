@@ -7,17 +7,20 @@ function Projects() {
   return (
     <>
       <Transitions>
-        <div className="project-wrapper">
-          {/* layer very back */}
-          <div className="project-content">
-            <div className="project-text">
-              <CardProjects />
-              <footer>test</footer>
-              <hr />
-            </div>
+        <h3 className="mt-5" style={{ color: "green" }}>
+          test motion frarmer
+        </h3>
+      </Transitions>
+      <div className="project-wrapper">
+        {/* layer very back */}
+        <div className="project-content">
+          <div className="project-text">
+            <CardProjects />
+            <footer>test</footer>
+            <hr />
           </div>
         </div>
-      </Transitions>
+      </div>
     </>
 
     // <div>

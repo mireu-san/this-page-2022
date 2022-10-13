@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Transitions from "../../components/Transitions";
 
 // pdf
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
@@ -8,6 +9,11 @@ import samplePDF from "../../pdf/test.pdf";
 function Home() {
   return (
     <>
+      <Transitions>
+        <h3 className="mt-5" style={{ color: "green" }}>
+          test motion frarmer
+        </h3>
+      </Transitions>
       <div className="home-wrapper">
         {/* layer very back */}
         <div className="home-content">

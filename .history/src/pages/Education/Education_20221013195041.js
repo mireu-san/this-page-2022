@@ -8,17 +8,21 @@ function Education() {
   return (
     <>
       <Transitions>
-        <div className="edu-wrapper">
-          {/* layer very back */}
-          <div className="edu-content">
-            <div className="edu-text">
-              <CardEducation />
-              {/* <footer>test</footer> */}
-              <hr />
-            </div>
+        <h3 className="mt-5" style={{ color: "green" }}>
+          test motion frarmer
+        </h3>
+      </Transitions>
+
+      <div className="edu-wrapper">
+        {/* layer very back */}
+        <div className="edu-content">
+          <div className="edu-text">
+            <CardEducation />
+            {/* <footer>test</footer> */}
+            <hr />
           </div>
         </div>
-      </Transitions>
+      </div>
     </>
   );
 }

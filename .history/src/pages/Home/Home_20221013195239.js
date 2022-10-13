@@ -8,6 +8,11 @@ import samplePDF from "../../pdf/test.pdf";
 function Home() {
   return (
     <>
+      <Transitions>
+        <h3 className="mt-5" style={{ color: "green" }}>
+          test motion frarmer
+        </h3>
+      </Transitions>
       <div className="home-wrapper">
         {/* layer very back */}
         <div className="home-content">
