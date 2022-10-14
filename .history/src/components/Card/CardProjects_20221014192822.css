@@ -17,7 +17,6 @@
     margin-left: 0px;
     /* somewhat responsive - if no time to make mobile responsive page with detail */
     flex-wrap: nowrap;
-
   }
   
   .card {
@@ -27,8 +26,8 @@
     height: 400px;
     margin: 10px;
     border-radius: 15px;
-    /* grid */
-
+    display: grid;
+    grid-template-rows: 1fr max-content;
   }
   
   .card-image {

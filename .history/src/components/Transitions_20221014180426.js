@@ -13,6 +13,7 @@ const Transitions = ({ children }) => {
       animate="animate"
       exit="exit"
       transition={{ duration: 0.4 }}
+      whileHover={{ scale: [null, 1.5, 1.4] }}
     >
       {children}
     </motion.div>

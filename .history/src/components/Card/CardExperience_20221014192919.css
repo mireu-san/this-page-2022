@@ -6,7 +6,8 @@
 
 body {
   background: rgb(27, 27, 27);
-  
+  display: grid;
+  grid-template-rows: 1fr max-content;
 }
 
 

@@ -6,7 +6,6 @@
 
 body {
   background: rgb(27, 27, 27);
-  
 }
 
 
@@ -18,7 +17,8 @@ body {
   margin-left: 0px;
   /* somewhat responsive - if no time to make mobile responsive page with detail */
   flex-wrap: nowrap;
-  
+  display: grid;
+  grid-template-rows: 1fr max-content;
 }
 
 .card {

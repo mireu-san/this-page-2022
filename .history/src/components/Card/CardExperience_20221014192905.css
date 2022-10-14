@@ -6,19 +6,19 @@
 
 body {
   background: rgb(27, 27, 27);
-  
 }
 
 
 .container-card {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   /* to move all cards as container, edit here */
   margin-right: 200px;
   margin-left: 0px;
   /* somewhat responsive - if no time to make mobile responsive page with detail */
   flex-wrap: nowrap;
-  
+  display: grid;
+  grid-template-rows: 1fr max-content;
 }
 
 .card {

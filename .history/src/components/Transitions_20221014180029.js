@@ -10,9 +10,10 @@ const Transitions = ({ children }) => {
     <motion.div
       variants={animationConfiguration}
       initial="initial"
-      animate="animate"
+      // animate="animate"
+      animate={{ x: [null, 100, 0] }}
       exit="exit"
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 1 }}
     >
       {children}
     </motion.div>
