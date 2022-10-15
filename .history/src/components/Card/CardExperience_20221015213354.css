@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(27, 27, 27);
+  
+}
+
+
+.container-card-exp {
+  /* grid 를 함으로서 vertical line-up이 적용됨. */
+  display: grid;
+  justify-content: center;
+  /* to move all cards as container, edit here */
+  margin-right: 200px 10%;
+  margin-left: 15%;
+  /* somewhat responsive - if no time to make mobile responsive page with detail */
+  flex-wrap: nowrap;
+  
+}
+
+.card-exp {
+  background: gray;
+  color: rgb(27, 27, 27);
+  width: 450px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 15px;
+
+}
+
+.card-image-exp {
+  background-color: white;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.li-wrapper-exp {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.img-1 {
+  background-image: url('../../images/s1.png');
+}
+
+.img-2 {
+  background-image: url('../../images/s2.jpg');
+}
+
+.img-3 {
+  background-image: url('../../images/s1.png');
+}
+
+.card p {
+  padding: 10px;
+}

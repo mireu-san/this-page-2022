@@ -12,7 +12,7 @@ function Projects() {
           <div className="project-content">
             <div className="project-text">
               <CardProjects />
-              <footer>test</footer>
+              {/* <footer>test</footer> */}
               <hr />
             </div>
           </div>
