@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  // remove basename="/" if gh-pages works => DO NOT. basename throws blank page.
+  // remove basename="/" if gh-pages works
   <BrowserRouter>
     <Main />
     {/* <Navbar /> */}
