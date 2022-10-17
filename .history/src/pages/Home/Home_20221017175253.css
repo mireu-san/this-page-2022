@@ -1,0 +1,44 @@
+.home-wrapper {
+    margin: 0 auto;
+    /* 이거다! leftbar 침범 안하게 설정하는 법 */
+    /* 현재 sidebar_left 에서 대응중 navbar.js 로 이동 */
+    /* margin-left: 200px; */
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.home-content {
+    margin: 0 auto;
+    /* modified both width and height from 100% to auto */
+    /* to fix margin-right issue */
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 20%;
+    height: auto;
+    width: 280px;
+    /* insurance */
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.home-text {
+    width: auto;
+    height: auto;
+    margin: 
+    /* to change position of pdf & profile */
+    /* margin-right: 200px; */
+}
+
+.react-pdf__Page__canvas {
+    margin-right: auto;
+    margin-left: auto;
+}
