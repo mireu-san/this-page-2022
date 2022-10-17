@@ -26,8 +26,10 @@ function CardProjects() {
 */}
         <div className="card-project">
           <div className="card-image-project img-1"></div>
-          <h2>This page</h2>
-          <h3>개인 페이지</h3>
+          <h2>
+            <a href="#">This page</a>
+          </h2>
+          <h3>개인 페이지 (Oct 2022)</h3>
 
           <div className="li-wrapper-project">
             <strong>전작과의 차이점</strong>
@@ -37,8 +39,8 @@ function CardProjects() {
               배정.
             </li>
             <li>
-              - 선 HTML, 후 JavaScript & React.js 의 순서로 진행{" "}
-              <p>(from lower to higher level stack and language)</p>
+              - 작업 도중 일어날 혼란을 최소화하고자, 최초 구성시 리팩토링을
+              자제하는 등 자체적으로 규칙 설정.
             </li>
             <li>
               - 완성 전, 잦은 변경으로 인한 스케줄 연장 문제를 예방하고자

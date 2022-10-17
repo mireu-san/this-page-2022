@@ -40,8 +40,8 @@ function CardExperience() {
               시간 기능을 구현.
             </li>
             <li>
-              - PM과의 소통을 기반으로 지식DB, 컴포넌트 구성 생성 및 업데이트
-              문서화 경험.
+              - Project Manager와의 대화를 통한 프로젝트 이해도 점검 및, 지식DB
+              기여, 컴포넌트 구성 기여 및 업데이트 내역에 대한 문서화 경험.
             </li>
           </div>
         </div>

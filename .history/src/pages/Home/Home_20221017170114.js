@@ -3,7 +3,7 @@ import "./Home.css";
 
 // pdf
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
-import HomePDF from "../../pdf/resume.pdf";
+import samplePDF from "../../pdf/resume.pdf";
 
 function Home() {
   return (
@@ -19,9 +19,9 @@ function Home() {
             />
             <hr />
             {/* {insert pdf here to let it display} */}
-            {/* == test only == <strong>Do Not USE bottom pdf</strong> unless this
-            message is removed! */}
-            <Document file={HomePDF}>
+            == test only == <strong>Do Not USE bottom pdf</strong> unless this
+            message is removed!
+            <Document file={samplePDF}>
               <Page pageNumber={1} />
             </Document>
           </div>
