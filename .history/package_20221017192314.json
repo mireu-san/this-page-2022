@@ -1,6 +1,5 @@
 {
-  "homepage": "https://mireu-san.github.io/this-page-2022/",
-  "name": "this-page-2022",
+  "name": "this-page-react-2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
