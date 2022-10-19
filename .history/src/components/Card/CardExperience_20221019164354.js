@@ -74,7 +74,7 @@ function CardExperience() {
           <h2>Accountant</h2>
           <h3>ROK Aviation Forces</h3>
           <div className="li-wrapper-exp">
-            <li>Served for 2 years</li>
+            <li>국방의 의무 - Served for 2 years</li>
             <li>2017 - 2019</li>
           </div>
         </div>

@@ -55,24 +55,22 @@ body {
 .cardImg-1 {
   background-image: url('../../images/1.png');
   width: 100%;
-  object-fit: cover;
+  display: inline-flex;
 }
 
 .cardImg-2 {
   background-image: url('../../images/2.jpg');
   width: 100%;
-  object-fit: cover;
+  display: inline-flex;
 }
 
 .cardImg-3 {
-  background-image: url('../../images/3.png');
-  width: 100%;
-  object-fit: cover;
+  background-image: url('../../images/3.jpg');
+  transform: translate(-50%, -50%);
 }
 
 .cardImg-4 {
   background-image: url('../../images/4.jpg');
-  object-fit: cover;
 }
 
 .card p {

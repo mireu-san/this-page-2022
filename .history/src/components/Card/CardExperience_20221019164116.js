@@ -50,17 +50,13 @@ function CardExperience() {
         {/* 독학 */}
         <div className="card-exp">
           <div className="card-image-exp cardImg-3"></div>
-          <h2>Web development - 독학</h2>
+          <h2>독학</h2>
           <h3>July 2020 - present</h3>
           <div className="li-wrapper-exp">
             <li>July 2020 - present</li>
             <li>
               Udemy, Stackoverflow, discord, 공식 문서, 자료 구조, leetcode,
               CS50 강의 및 서적을 중심으로 개념 진행
-            </li>
-            <li>
-              첫 시작은 Python 및 백엔드. 이 후, Front-end JavaScript 프로젝트
-              위주로 개발.
             </li>
             <li>
               JavaScript 내 클래스, 프로토 타입, 배열 접목을 통한 리펙토링 및

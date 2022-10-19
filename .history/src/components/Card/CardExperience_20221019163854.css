@@ -28,7 +28,7 @@ body {
   background: rgb(210, 210, 210);
   color: rgb(27, 27, 27);
   width: 650px;
-  height: 450px;
+  height: 420px;
   margin: 10px;
   border-radius: 15px;
 }
@@ -55,24 +55,19 @@ body {
 .cardImg-1 {
   background-image: url('../../images/1.png');
   width: 100%;
-  object-fit: cover;
+  display: inline-flex;
 }
 
 .cardImg-2 {
   background-image: url('../../images/2.jpg');
-  width: 100%;
-  object-fit: cover;
 }
 
 .cardImg-3 {
-  background-image: url('../../images/3.png');
-  width: 100%;
-  object-fit: cover;
+  background-image: url('../../images/3.jpg');
 }
 
 .cardImg-4 {
   background-image: url('../../images/4.jpg');
-  object-fit: cover;
 }
 
 .card p {

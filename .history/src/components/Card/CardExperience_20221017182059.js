@@ -7,9 +7,9 @@ function CardExperience() {
       {/* Chingu - collaboration work */}
       <section className="container-card-exp">
         <div className="card-exp">
-          <div className="card-image-exp cardImg-1"></div>
-          <h2>Chingu - Work Collaboration Remote Community</h2>
-          <h3>04/2022 - present</h3>
+          <div className="card-image-exp img-1"></div>
+          <h2>Collaboration Work in remote community</h2>
+          <h3>Chingu - Globe</h3>
           {/* <p>Text</p> */}
           <div className="li-wrapper-exp">
             <li>싱가폴 시간대에 거주중인 개발자들과 함께 단기적으로 진행.</li>
@@ -28,9 +28,9 @@ function CardExperience() {
         </div>
         {/* Teampl100 - frontend developer */}
         <div className="card-exp">
-          <div className="card-image-exp cardImg-2"></div>
-          <h2>Frontend Developer - Teampl100</h2>
-          <h3>07/2022 - 08/2022</h3>
+          <div className="card-image-exp img-2"></div>
+          <h2>Frontend Developer</h2>
+          <h3>Teampl100</h3>
           <div className="li-wrapper-exp">
             <li>JS, React.js, TypeScript 를 사용</li>
             <li>
@@ -49,18 +49,13 @@ function CardExperience() {
         </div>
         {/* 독학 */}
         <div className="card-exp">
-          <div className="card-image-exp cardImg-3"></div>
-          <h2>Web development - 독학</h2>
-          <h3>July 2020 - present</h3>
+          <div className="card-image-exp img-3"></div>
+          <h2>독학</h2>
           <div className="li-wrapper-exp">
             <li>July 2020 - present</li>
             <li>
               Udemy, Stackoverflow, discord, 공식 문서, 자료 구조, leetcode,
               CS50 강의 및 서적을 중심으로 개념 진행
-            </li>
-            <li>
-              첫 시작은 Python 및 백엔드. 이 후, Front-end JavaScript 프로젝트
-              위주로 개발.
             </li>
             <li>
               JavaScript 내 클래스, 프로토 타입, 배열 접목을 통한 리펙토링 및
@@ -70,7 +65,7 @@ function CardExperience() {
         </div>
         {/* Aviation - accounting */}
         <div className="card-exp">
-          <div className="card-image-exp cardImg-4"></div>
+          <div className="card-image-exp img-3"></div>
           <h2>Accountant</h2>
           <h3>ROK Aviation Forces</h3>
           <div className="li-wrapper-exp">

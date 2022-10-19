@@ -60,7 +60,7 @@ function CardExperience() {
             </li>
             <li>
               첫 시작은 Python 및 백엔드. 이 후, Front-end JavaScript 프로젝트
-              위주로 개발.
+              위주로 활동.
             </li>
             <li>
               JavaScript 내 클래스, 프로토 타입, 배열 접목을 통한 리펙토링 및
