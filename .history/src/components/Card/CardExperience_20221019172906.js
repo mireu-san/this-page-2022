@@ -6,7 +6,6 @@ function CardExperience() {
     <>
       {/* Chingu - collaboration work */}
       <section className="container-card-exp">
-        {/* <div className="card-grid"> */}
         {/* each card => card-exp */}
         <div className="card-exp">
           <div className="card-image-exp cardImg-1"></div>
@@ -80,7 +79,6 @@ function CardExperience() {
             <li>2017 - 2019</li>
           </div>
         </div>
-        {/* </div> */}
       </section>
     </>
   );

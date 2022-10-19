@@ -21,13 +21,13 @@ body {
 
 }
 
-/* .card-grid {
+.card-grid {
   
   display: grid;
   grid-template-columns: 60% 2fr;
- 
-  padding-right: 10%;
-} */
+  margin-right: 10%;
+  padding-left: 10%;
+}
 
 /* each card */
 .card-exp {

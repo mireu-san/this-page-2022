@@ -18,15 +18,13 @@ body {
   margin-left: 15%;
   /* somewhat responsive - if no time to make mobile responsive page with detail */
   flex-wrap: nowrap;
-
+  
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 /* .card-grid {
-  
-  display: grid;
-  grid-template-columns: 60% 2fr;
- 
-  padding-right: 10%;
+
 } */
 
 /* each card */

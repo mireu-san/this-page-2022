@@ -7,6 +7,7 @@ function CardExperience() {
       {/* Chingu - collaboration work */}
       <section className="container-card-exp">
         {/* <div className="card-grid"> */}
+        test
         {/* each card => card-exp */}
         <div className="card-exp">
           <div className="card-image-exp cardImg-1"></div>
