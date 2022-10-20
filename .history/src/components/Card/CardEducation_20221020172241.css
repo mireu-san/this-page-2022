@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: rgb(27, 27, 27);
+  }
+  
+  .li-wrapper-edu li::before  {content: "•"; color: #333;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+
+
+  .container-card-edu {
+    display: flex;
+    justify-content: center;
+    /* to move all cards as container, edit here */
+    margin-left: 200px;
+    margin-right: 0px;
+    /* somewhat responsive - if no time to make mobile responsive page with detail */
+    flex-wrap: nowrap;
+    display: grid;
+  }
+  
+  .card-edu {
+    background: rgb(210, 210, 210);
+    color: rgb(27, 27, 27);
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .card-image-edu {
+    background-color: white;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .li-wrapper-edu {
+    text-align: left;
+    /* margin-top: 1rem;
+    margin-left: 1rem; */
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+    line-height: 1.5rem;
+  }
+  
+  .eduImg-1 {
+    background-image: url('../../images/s1.png');
+  }
+  
+  .eduImg-2 {
+    background-image: url('../../images/qut.jpg');
+  }
+  
+  .card p {
+    padding: 10px;
+  }

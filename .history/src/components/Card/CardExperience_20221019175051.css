@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(27, 27, 27); 
+}
+
+.card-wrapper {
+  padding: 0 2em;
+  max-width: 100rem;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+  /* Caution : have no wrapper at the moment! */
+.container-card-exp {
+  /* grid 를 함으로서 vertical line-up이 적용됨. */
+  display: grid;
+  justify-content: center;
+  /* to move all cards as container, edit here */
+  margin-right: 200px 10%;
+  margin-left: 15%;
+  /* somewhat responsive - if no time to make mobile responsive page with detail */
+  flex-wrap: nowrap;
+
+}
+
+
+/* each card */
+.card-exp {
+  background: rgb(210, 210, 210);
+  color: rgb(27, 27, 27);
+  width: 650px;
+  height: 450px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-image-exp {
+  background-color: white;
+  height: 180px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.li-wrapper-exp {
+  text-align: left;
+  margin-top: 1rem;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+  margin-right: 10%;
+  margin-left: 10%;
+  line-height: 1.5rem;
+  
+}
+
+.li-wrapper-exp li::before  {content: "•"; color: #333;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+
+.cardImg-1 {
+  background-image: url('../../images/1.png');
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardImg-2 {
+  background-image: url('../../images/2.jpg');
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardImg-3 {
+  background-image: url('../../images/3.png');
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardImg-4 {
+  background-image: url('../../images/4.jpg');
+  object-fit: cover;
+}
+
+.card p {
+  padding: 10px;
+}
