@@ -47,7 +47,7 @@ function CardProjects() {
         <div className="card-project">
           <div className="card-image-project projectImg-1"></div>
           <h2>
-            <a href="https://github.com/mireu-san/anime-satelite-station">
+            <a href="https://github.com/mireu-san/this-page-2022">
               Anime Satelite Station
             </a>
           </h2>
@@ -58,9 +58,7 @@ function CardProjects() {
               Jikan API 의 DB를 fetch 로 원하는 특정 데이터만 호출하는 것이 주
               기능.
             </li>
-            <li>검색 값 입력 시 실시간으로 결과 표시</li>
-            <li>props 를 활용 하여 wishlist 생성 및 삭제 기능 구현.</li>
-            <li>useState, useEffect, promises, fetch</li>
+            <li>별도의 버튼 없이 실시간으로 검색 결과가 나오도록 표시</li>
           </div>
         </div>
       </section>

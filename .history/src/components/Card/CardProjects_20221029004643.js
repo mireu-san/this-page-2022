@@ -47,7 +47,7 @@ function CardProjects() {
         <div className="card-project">
           <div className="card-image-project projectImg-1"></div>
           <h2>
-            <a href="https://github.com/mireu-san/anime-satelite-station">
+            <a href="https://github.com/mireu-san/this-page-2022">
               Anime Satelite Station
             </a>
           </h2>
