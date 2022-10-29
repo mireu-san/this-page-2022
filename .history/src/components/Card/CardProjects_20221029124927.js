@@ -55,13 +55,12 @@ function CardProjects() {
           <div className="li-wrapper-project">
             <strong>개발 노트</strong>
             <li>
-              Jikan API 의 DB data를 fetch로 원하는 특정 데이터만 호출하는 것이
-              주 기능.
+              Jikan API 의 DB를 fetch 로 원하는 특정 데이터만 호출하는 것이 주
+              기능.
             </li>
-            <li>Jikan document 에서 path & query parameter 를 참고.</li>
             <li>검색 값 입력 시 실시간으로 결과 표시</li>
-            <li>props 를 활용 하여 wishlist 생성 및 삭제 기능 구성.</li>
-            <li>useState, useEffect, fetch api 위주로 구성.</li>
+            <li>props 를 활용 하여 wishlist 생성 및 삭제 기능 구현.</li>
+            <li>useState, useEffect, promises, fetch</li>
           </div>
         </div>
       </section>
