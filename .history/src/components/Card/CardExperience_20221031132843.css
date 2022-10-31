@@ -6,7 +6,6 @@
 
 body {
   background: rgb(27, 27, 27); 
-  min-width: 610px;
 }
 
 /* major 1 */
@@ -64,7 +63,7 @@ body {
   margin-right: 1rem; */
   margin-right: 10%;
   margin-left: 10%;
-  line-height: 1.5rem;
+  line-height: 1rem;
   overflow-wrap: break-word;
 }
 

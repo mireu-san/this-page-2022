@@ -13,9 +13,9 @@
     display: flex;
     justify-content: center;
     /* to move all cards as container, edit here */
-    margin: auto;
     margin-left: 200px;
     /* margin-right: 0px; */
+    margin: auto;
     /* somewhat responsive - if no time to make mobile responsive page with detail */
     flex-wrap: nowrap;
     display: grid;
