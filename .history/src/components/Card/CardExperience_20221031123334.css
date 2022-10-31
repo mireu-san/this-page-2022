@@ -8,7 +8,7 @@ body {
   background: rgb(27, 27, 27); 
 }
 
-/* major 1 */
+
   /* Caution : have no wrapper at the moment! */
 .container-card-exp {
   display: flex;
@@ -19,14 +19,14 @@ body {
   margin: auto;
   /* then apply margin-left as additional condition */
   margin-left: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   max-height: 500px;
   /* somewhat responsive - if no time to make mobile responsive page with detail */
   /* flex-wrap: nowrap; */
 
 }
 
-/* major 2 */
+
 /* each card */
 .card-exp-1, .card-exp-2, .card-exp-3 {
   background: rgb(210, 210, 210);
@@ -35,7 +35,7 @@ body {
   height: 500px;
   margin: 10px;
   border-radius: 15px;
-
+  overflow-wrap: break-word;
 }
 
 .card-exp-4 {
@@ -45,7 +45,6 @@ body {
   height: 350px;
   margin: 10px;
   border-radius: 15px;
-
 }
 
 .card-image-exp {
@@ -64,7 +63,7 @@ body {
   margin-right: 10%;
   margin-left: 10%;
   line-height: 1.5rem;
-  overflow-wrap: break-word;
+  
 }
 
 .li-wrapper-exp li::before  {content: "•"; color: #333;

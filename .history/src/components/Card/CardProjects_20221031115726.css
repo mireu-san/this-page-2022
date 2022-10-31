@@ -15,9 +15,8 @@
     justify-content: center;
     /* to move all cards as container, edit here */
     /* margin-right: 200px; */
-    /* margin-right: 10%;
-    margin-left: 10%; */
-    margin: auto;
+    margin-right: 10%;
+    margin-left: 10%;
     /* somewhat responsive - if no time to make mobile responsive page with detail */
     flex-wrap: nowrap;
     /* padding-left: 25%; */
