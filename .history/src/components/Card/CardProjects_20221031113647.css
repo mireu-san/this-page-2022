@@ -26,12 +26,12 @@
     background: rgb(210, 210, 210);
     color: rgb(27, 27, 27);
     width: 100%;
-    max-width: 50%;
     height: 90%;
-    margin: 10px;
+    margin: 50px;
     margin-left: 220px;
     border-radius: 15px;
     padding-bottom: 2%;
+
   }
 
   .project-button {
