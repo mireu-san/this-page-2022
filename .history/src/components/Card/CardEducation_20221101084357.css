@@ -6,9 +6,10 @@
   
   body {
     background: rgb(27, 27, 27);
-    min-width: 610px;
+    /* min-width: 610px; */
   }
   
+
   .container-card-edu {
     display: flex;
     justify-content: center;
