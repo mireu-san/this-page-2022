@@ -1,8 +1,14 @@
 # This Pag
 <Maintenance log>
 - Check for mobile screen compatibility
-- No adding for menu button
+- Adding for menu button
 - readjusting min and max width with media query are planned.
+
+<Hotfix - temporary>
+tl;dr - Mobilised the page in general.
+1. Modified Navbar as burger button.
+2. Removed margin-left: 200px; which act as a fixed space for Navbar (leftside)
+3. Hid NightMode button.
 
 <향후 개선점(1차 후기)>
 - layout 따로, data(text 및 content) 따로 해서 작업을 해 볼 필요가 있겠습니다.

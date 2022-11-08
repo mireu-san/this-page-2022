@@ -3,7 +3,20 @@ import "./Home.css";
 
 // pdf
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
+
 import HomePDF from "../../pdf/resume.pdf";
+
+// const styles = StyleSheet.create({
+//   section: {
+//     width: 200,
+//     "@media max-width: 400": {
+//       width: 300,
+//     },
+//     "@media orientation: landscape": {
+//       width: 400,
+//     },
+//   },
+// });
 
 function Home() {
   return (
@@ -18,14 +31,15 @@ function Home() {
               src={require("../../images/me-photo.jpg")}
             />
             <hr />
-            {/* {insert pdf here to let it display} */}
-            {/* == test only == <strong>Do Not USE bottom pdf</strong> unless this
-            message is removed! */}
-            <Document file={HomePDF}>
-              <Page scale={1.5} pageNumber={1} />
-            </Document>
+            {/* pdf */}
+            <div className="pdf">
+              <Document file={HomePDF}>
+                <Page scale={1.5} pageNumber={1} />
+                {/* <Page size="A4" style={styles.page} /> */}
+              </Document>
+            </div>
+            <hr />
           </div>
-          <hr />
         </div>
       </div>
     </>

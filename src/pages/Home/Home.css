@@ -1,8 +1,5 @@
 .home-wrapper {
     margin: 0 auto;
-    /* 이거다! leftbar 침범 안하게 설정하는 법 */
-     /* 아래 home-content 로 재배치  */
-    /* margin-left: 200px; */
     width: 100%;
     height: 100%;
     display: block;
@@ -11,13 +8,10 @@
 
 .home-content {
     margin: 0 auto;
-    /* modified both width and height from 100% to auto */
-    /* to fix margin-right issue */
     width: auto;
     height: auto;
     display: block;
     text-align: center;
-    margin-left: 200px;
 }
 
 .profile {
@@ -34,14 +28,35 @@
 .home-text {
     width: auto;
     height: auto;
-    
-    /* to change position of pdf & profile */
-    /* margin-right: 200px; */
+    margin: 0;
 }
+
+
 
 .react-pdf__Page__canvas {
     margin-right: auto;
     margin-left: auto;
     margin-top: 1rem;
 
+}
+
+.react-pdf__Page__canvas {
+    width: 600px;
+    height: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-text {
+        width: 400px;
+
+    }
+
+    .pdf {
+        max-width: 300px;
+    }
+
+    .react-pdf__Page__canvas {
+        max-width: 390px;
+        max-height: 550px;
+    }
 }

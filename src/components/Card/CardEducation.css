@@ -12,21 +12,19 @@
   .container-card-edu {
     display: flex;
     justify-content: center;
-    /* to move all cards as container, edit here */
     margin: auto;
-    margin-left: 200px;
-    /* margin-right: 0px; */
-    /* somewhat responsive - if no time to make mobile responsive page with detail */
     flex-wrap: nowrap;
     display: grid;
   }
   
+
+
   .card-edu-1 {
     background: rgb(210, 210, 210);
     color: rgb(27, 27, 27);
     width: 500px;
     height: 570px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 15px;
   }
 
@@ -35,31 +33,29 @@
     color: rgb(27, 27, 27);
     width: 500px;
     height: 450px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 15px;
   }
   
   .card-image-edu {
     background-color: white;
     height: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
   }
   
   .li-wrapper-edu {
     text-align: left;
-    /* margin-top: 1rem;
-    margin-left: 1rem; */
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 1%;
+    margin-right: 2.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
     line-height: 1.5rem;
   }
 
   .li-wrapper-edu li::before  {content: "•"; color: #333;
     display: inline-block; width: 1em;
-    margin-left: -1em}
+    margin-left: 0em}
 
   .eduImg-1 {
     background-image: url('../../images/s1.png');
@@ -73,4 +69,39 @@
   
   .card p {
     padding: 10px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .container-card-edu {
+      /* background-color: #ffedbf; */
+      width: 380px;
+      margin: 0;
+      margin-bottom: 1rem;
+
+      /* width: 650px; */
+      height: 700px;
+      margin: 1.5rem;
+      border-radius: 15px;
+    }
+
+    .card-edu-1 {
+      width: 380px;
+      margin: 5px;
+      height: 680px;
+    }
+
+    .card-edu-2 {
+      width: 380px;
+      margin: 0;
+      height: 500px;
+    }
+
+    .li-wrapper-edu {
+      text-align: left;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      line-height: 1.5rem;
+    }
   }

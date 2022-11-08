@@ -22,3 +22,13 @@
     width: auto;
     height: auto;
 }
+
+/* @media only screen and (max-width: 600px) {
+    
+.edu-text .edu-content {
+    width: 380px;
+    height: 500px;
+}
+
+
+} */

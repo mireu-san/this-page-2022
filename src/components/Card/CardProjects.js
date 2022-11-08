@@ -6,7 +6,7 @@ function CardProjects() {
     <>
       {/* #1 */}
       <section className="container-card-project">
-        <div className="card-project">
+        <div className="card-project-1">
           <div className="card-image-project projectImg-1"></div>
           <h2>
             <a href="https://github.com/mireu-san/this-page-2022">This page</a>
@@ -44,7 +44,7 @@ function CardProjects() {
       </section>
       {/* #2 */}
       <section className="container-card-project">
-        <div className="card-project">
+        <div className="card-project-2">
           <div className="card-image-project projectImg-1"></div>
           <h2>
             <a href="https://dynamic-malasada-d95be3.netlify.app/">
