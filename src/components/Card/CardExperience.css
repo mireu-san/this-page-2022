@@ -20,30 +20,17 @@ body {
   max-height: 500px;
 }
 
-@media only screen and (max-width: 600px) {
-  .container-card-exp {
-    /* background-color: #ffedbf; */
-    width: 380px;
-    margin: 1.5rem;
-    margin-bottom: 6rem;
-    height: 650px;
-  }
-}
-
 /* major 2 */
 /* each card */
 .card-exp-1, .card-exp-2, .card-exp-3 {
   background: rgb(210, 210, 210);
   color: rgb(27, 27, 27);
   width: 650px;
-  height: 580px;
-  margin: 1.5rem;
+  height: 500px;
+  margin: 1.8rem;
   border-radius: 15px;
 
 }
-
-
-
 
 .card-exp-4 {
   background: rgb(210, 210, 210);
@@ -52,6 +39,27 @@ body {
   height: 350px;
   margin: 2rem;
   border-radius: 15px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container-card-exp {
+    /* background-color: #ffedbf; */
+    width: 380px;
+    margin: 1.5rem;
+    margin-bottom: 6rem;
+    height: 650px;
+  }
+
+  .card-exp-1, .card-exp-2, .card-exp-3 {
+    background: rgb(210, 210, 210);
+    color: rgb(27, 27, 27);
+    width: 650px;
+    height: 580px;
+    margin: 1.5rem;
+    border-radius: 15px;
+  
+  }
 
 }
 

@@ -4,7 +4,6 @@ import "./CardExperience.css";
 function CardExperience() {
   return (
     <>
-      {/* Caution : no entire wrapper does exist! May add it when necessary */}
       {/* Chingu - collaboration work */}
       {/* <section className="card-wrapper"> */}
       <section className="container-card-exp">
