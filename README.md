@@ -1,4 +1,9 @@
 # This Pag
+<Maintenance log>
+- Check for mobile screen compatibility
+- No adding for menu button
+- readjusting min and max width with media query are planned.
+
 <향후 개선점(1차 후기)>
 - layout 따로, data(text 및 content) 따로 해서 작업을 해 볼 필요가 있겠습니다.
 - 이는 중복되는 부분이 많은 components > Card 부분에서 props 로 대응 해 볼 수 있겠습니다.
