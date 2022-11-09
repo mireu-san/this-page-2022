@@ -12,7 +12,6 @@ import styled from "styled-components";
 
 // NightMode (activated - home, not navbar.js)
 const StyleHeader = styled.div`
-  /* margin-left: 50%; */
   margin-left: 100px;
   margin-top: 35px;
   margin-bottom: 2rem;
@@ -20,8 +19,8 @@ const StyleHeader = styled.div`
 
 function App() {
   return (
-    <div className="App" id="outer-container">
-      <Navbar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
+    <div className="App">
+      <Navbar />
       <StyleHeader>
         <div className="header">
           <NightMode />
