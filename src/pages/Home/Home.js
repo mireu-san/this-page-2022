@@ -6,18 +6,6 @@ import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
 
 import HomePDF from "../../pdf/resume.pdf";
 
-// const styles = StyleSheet.create({
-//   section: {
-//     width: 200,
-//     "@media max-width: 400": {
-//       width: 300,
-//     },
-//     "@media orientation: landscape": {
-//       width: 400,
-//     },
-//   },
-// });
-
 function Home() {
   return (
     <>
