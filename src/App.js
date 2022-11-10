@@ -13,20 +13,21 @@ import "./App.css";
 
 // NightMode (activated - home, not navbar.js)
 const StyleHeader = styled.div`
-  margin-left: 100px;
+  margin-left: 12px;
   margin-top: 35px;
   margin-bottom: 2rem;
+  display: absolute;
 `;
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <StyleHeader>
         <div className="header">
           <NightMode />
         </div>
       </StyleHeader>
+      <Navbar />
       <div id="page-wrap">
         <AnimatePresence>
           <Routes>

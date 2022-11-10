@@ -9,27 +9,22 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-/* .header {
-  margin-left: 92%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-} */
+
 
 body {
    background-color: #f3f5f9;
 }
 
-.wrapper {
-  display: flex;
-  position: relative;
-}
+
 
 /* sidebar - left (skeleton) */
-.wrapper .sidebar_left {
+.navbar {
   width: 200px;
   height: 100%;
   background: #ffffff;
-  padding: 30px 0px;
+  display: flex;
+  position: relative;
+  /* padding: 30px 0px; */
   /* left skeleton position is fixed! */
   position: fixed;
   letter-spacing: 2px;
@@ -38,15 +33,19 @@ body {
 }
 
 /* sidebar - left (logo) */
-.wrapper .sidebar_left h2 {
+.navbar h2 {
   color: #000000;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
 }
 
+.navbar .logo {
+  margin-top: 30px;
+}
+
 /* sidebar - Left (button) */
-.wrapper .sidebar_left ul li {
+.navbar ul li {
   padding: 15px;
   border-bottom: 1px solid #bdb8d7;
   border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -54,44 +53,33 @@ body {
 }    
 
 /* navbar menu */
-.wrapper .sidebar_left ul li a {
+.navbar ul li a {
   color: #000000;
   display: block;
 }
 
-/* navbar menu */
-/* .wrapper .sidebar_left ul li a .fas {
-  width: 25px;
-} */
 
 /* navbar menu */
-.wrapper .sidebar_left ul li:hover {
+.navbar .navbarLeft ul li:hover {
   background-color: #000000;
 }
 
 /* navbar menu */
-.wrapper .sidebar_left ul li:hover a {
+.navbar .navbarLeft ul li:hover a {
   color: #fff;
 }
 /*  
 
 /* define navbar position - right */
-.wrapper .main_content_right {
+.navbar .main_content_right {
   width: 100%;
   margin-left: 200px;
 }
 
-/* define header position, - as a right */
-/* lighting colour is here */
-/* .wrapper .main_content_right .header {
-  padding: 20px;
-  background: #fff;
-  color: #717171;
-  border-bottom: 1px solid #e0e4e8;
-} */
+
 
 /* define right, main content(body), text/central area */
-.wrapper .main_content_right .info {
+.navbar .main_content_right .info {
   margin: 20px;
   color: #717171;
   line-height: 25px;
@@ -99,6 +87,142 @@ body {
 
 /* set marginal space as a paragraph */
 /* may consider adding <hr> tag if needed */
-.wrapper .main_content_right .info div {
+.navbar .main_content_right .info div {
   margin-bottom: 20px;
+}
+
+/* 여기서 추가됨 */
+.toggleButton {
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 20px;
+}
+
+/* toggle button for mobile */
+.toggleButton button {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* .navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 2px;
+  font-size: 25px;
+} */
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1130px) {
+  .toggleButton {
+    padding-bottom: 0px;
+  }
+
+  .navbar {
+    width: 500px;
+    background-color: white;
+    height: 50px;
+    margin-left: 0%;
+
+  }
+/* 
+  button {
+    margin-bottom: 100px;
+  } */
+
+  .links {    
+
+    height: 550px;
+  }
+
+  
+  .toggleButton {
+    display: flex;
+  }
+  #close a {
+    display: none;
+
+  }
+
+  #close .links {
+    display: none;
+  }
+
+  #close.navbar {
+    width: 50px;
+  }
+  
+}
+
+@media only screen and (max-width: 1130px) {
+  .toggleButton {
+    display: flex;
+    background-color: brown;
+    margin-right: 150px;
+  }
+  #close a {
+    display: none;
+  }
+
+  #close.navbar {
+    background-color: brown;
+  }
+
+  #open .links {
+    margin-right: 150px;
+  }
+  #open.navbar {
+    position: relative;
+  }
+
+}
+
+
+@media only screen and (min-width: 1130px) {
+  .toggleButton {
+    display: none;
+    background-color: black;
+    width: 50px;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
+
+
+
 }
