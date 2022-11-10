@@ -31,7 +31,6 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              {/* 주의: 원래 History 였음. 모든 tag, class명은 history 또는 his 임. */}
               <Link to="/education">
                 <SiFuturelearn /> Education
               </Link>
@@ -58,11 +57,6 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        {/* <div className="main_content_right">
-          <div className="header">
-            <NightMode />
-          </div>
-        </div> */}
       </div>
     </Menu>
   );
