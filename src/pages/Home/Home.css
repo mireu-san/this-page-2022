@@ -31,7 +31,8 @@
     width: 280px;
     /* insurance */
     margin-right:auto;
-    margin-left: auto;
+    /* margin-left: auto; */
+    margin-right: 30%;
     margin-top: 1rem; 
     margin-bottom: 1rem;
 }
@@ -46,7 +47,8 @@
 
 .react-pdf__Page__canvas {
     margin-right: auto;
-    margin-left: auto;
+    /* margin-left: 5vw; */
+    margin-left: 3%;
     margin-top: 1rem;
 
 }
@@ -56,7 +58,7 @@
     height: 800px;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .home-wrapper {
         width: 100%;
     }
@@ -70,6 +72,13 @@
         max-width: 300px;
     }
 
+    .react-pdf__Page__canvas {
+        max-width: 390px;
+        max-height: 550px;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
     .react-pdf__Page__canvas {
         max-width: 390px;
         max-height: 550px;

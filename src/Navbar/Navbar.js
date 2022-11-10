@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Home from "../pages/Home/Home";
-
-// import NightMode from "./NightMode";
 import "./Navbar.css";
 
 import { FaHome } from "react-icons/fa";
