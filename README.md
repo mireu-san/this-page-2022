@@ -1,16 +1,7 @@
-# This Pag
-<Maintenance log>
-- Check for mobile screen compatibility
-- Adding for menu button
-- readjusting min and max width with media query are planned.
+# This Page 2022
+CSS 에서 80%, JS 구성에서 20%의 시간이 소요된 개인 페이지입니다.
 
-<Hotfix - temporary>
-tl;dr - Mobilised the page in general.
-1. Modified Navbar as burger button.
-2. Removed margin-left: 200px; which act as a fixed space for Navbar (leftside)
-3. Hid NightMode button.
-
-<향후 개선점(1차 후기)>
+<향후 개선 가능>
 - layout 따로, data(text 및 content) 따로 해서 작업을 해 볼 필요가 있겠습니다.
 - 이는 중복되는 부분이 많은 components > Card 부분에서 props 로 대응 해 볼 수 있겠습니다.
 
