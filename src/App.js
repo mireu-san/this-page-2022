@@ -9,6 +9,7 @@ import Projects from "./pages/Projects/Projects";
 import NightMode from "./Navbar/NightMode";
 import { AnimatePresence } from "framer-motion";
 import styled from "styled-components";
+import "./App.css";
 
 // NightMode (activated - home, not navbar.js)
 const StyleHeader = styled.div`
