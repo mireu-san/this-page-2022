@@ -95,7 +95,8 @@
     .card-project-1 {
       width: 380px;
       height: 750px;
-      margin-left: 1rem;
+      /* margin-left: 1rem; */
+      margin-left: 40px;
       margin-right: 1rem;
       margin-bottom: 1rem;
     }
@@ -103,7 +104,8 @@
     .card-project-2 {
       width: 390px;
       height: 750px;
-      margin-left: 1rem;
+      /* margin-left: 1rem; */
+      margin-left: 40px;
       margin-right: 1rem;
       margin-bottom: 1rem;
     }
